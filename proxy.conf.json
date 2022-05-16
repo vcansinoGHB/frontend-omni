@@ -1,0 +1,7 @@
+{
+    "/json/data/*":{
+      "target":"http://localhost:5019",
+      "secure":false,
+      "logLevel":"debug"
+    }
+}

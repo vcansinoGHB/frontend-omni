@@ -1,0 +1,32 @@
+div.sidebar {
+ padding: 10px;
+ padding-bottom: 100px;
+ border: 1px solid #ccc;
+ background: #fff;
+ position: fixed;
+ top: 25%;
+ right: 20%;
+ width: 700px;
+ height: 1000px;
+}
+.title-img {
+  font-size: 24px;  
+}
+
+div#fixed {
+ background: #76a7dc;
+ padding-bottom: 10px;
+ color: #fff;
+}
+
+div#scrollable {
+ overflow: auto;
+ max-width: 800px;
+ max-height: 1000px;
+}
+
+div#itemc {
+ display: inline-block;
+ padding:10px;
+ text-align: center;
+}
