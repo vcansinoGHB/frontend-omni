@@ -7,11 +7,13 @@ import { ListComponent } from './imagecompany/list/list.component';
 import { FormsModule } from '@angular/forms';
 import { ServiceService } from './Service/service.service';
 import { HttpClientModule } from '@angular/common/http';
+import { SplitPipe } from './split.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListComponent
+    ListComponent,
+    SplitPipe
   ],
   imports: [
     BrowserModule,
