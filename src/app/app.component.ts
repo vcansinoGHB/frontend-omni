@@ -12,6 +12,10 @@ export class AppComponent {
   constructor(private router:Router){}
 
   List(){
-    this.router.navigate(["list"])
+    this.router.navigate(["list"]);
   }
+  ListLazy() {
+    this.router.navigate(["lazylist"]);
+  }
+
 }

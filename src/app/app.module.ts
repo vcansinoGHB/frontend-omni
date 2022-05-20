@@ -8,18 +8,22 @@ import { FormsModule } from '@angular/forms';
 import { ServiceService } from './Service/service.service';
 import { HttpClientModule } from '@angular/common/http';
 import { SplitPipe } from './split.pipe';
+import { LazyListComponent } from './lazy-list/lazy-list.component';
+import { InfiniteScrollModule } from "ngx-infinite-scroll";
 
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
-    SplitPipe
+    SplitPipe,
+    LazyListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    InfiniteScrollModule
   ],
   providers: [ServiceService],
   bootstrap: [AppComponent]
